@@ -1,0 +1,109 @@
+    .body {
+        width: 1300px;
+        height: 750px;
+        box-shadow: 0 10px 20px silver;
+        margin: auto;
+        /* margin-left: 50px; */
+        /* padding-left: 50px;
+    padding-right: 50px; */
+        /* margin-left: 250px; */
+        color: rgb(148, 64, 64);
+    }
+    
+    button {
+        width: 250px;
+        height: 50px;
+        background-color: rgb(167, 82, 82);
+        border-radius: 20px;
+        position: relative;
+        top: -100px;
+        left: 1000px;
+        margin-right: 50px;
+        font-size: large;
+        border-color: transparent;
+    }
+    
+    .fourth-left>h4 {
+        color: rgb(167, 82, 82);
+    }
+    
+    h4 {
+        color: rgb(88, 78, 78);
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .header>h4 {
+        color: white;
+    }
+    
+    .header {
+        background-color: rgb(148, 64, 64);
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-bottom: 0px;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .second {
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        align-items: center;
+    }
+    
+    .third {
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        align-items: center;
+    }
+    
+    .fourth {
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        align-items: center;
+    }
+    
+    .fifth {
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        align-items: center;
+    }
+    
+    .sixth {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        height: 30px;
+        align-items: center;
+        margin-left: 350px;
+    }
+    
+    .sixth>i,
+    p {
+        padding-right: 10px;
+    }
+    
+    #user {
+        position: relative;
+        display: flex;
+        top: -15px;
+        left: -45px;
+    }
+    
+    .fourth-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booked</title>
+    <link rel="stylesheet" href="finalform.css">
+</head>
+
+<body>
+    <form name="form" id="form">BOOKING DETIALS <br>
+        <label for="name">Name:</label>
+        <input type="text" class="inputbar" required placeholder="enter name" id="name"><br>
+        <label for="mail">Mail Id:</label>
+        <input type="email" id="mail" class="inputbar" placeholder="enter mailid"><br>
+        <div class="gender">
+            <h6>Gender:</h6>
+            <input type="radio" required name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" required name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <div class="seatno">
+            <label for="seatNo">Seat No:</label>
+            <input id="seatinput" type="number" class="inputbar" readonly><br>
+        </div>
+        <br>
+        <div class="price">
+            <label for="seatprice">Seat price:</label>
+            <input id="seatprice" type="number" class="inputbar" readonly><br>
+        </div>
+        <div class="ins">
+            <input type="checkbox">Need insurance <br>
+        </div>
+        <!-- <a href="../last/last.html" target="_blank"> -->
+        <div>
+            <button onclick="bookSeat()" type="button" id="register">  Book Bus</button>
+        </div>
+        <!-- </a> -->
+    </form>
+    <script src="finalform.js"></script>
+</body>
+
+</html>

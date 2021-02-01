@@ -1,0 +1,207 @@
+.main {
+    width: 400px;
+    height: 850px;
+    box-shadow: 0 10px 20px silver;
+    border-radius: 30px;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.steering {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.steering>i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 500px;
+}
+
+.row1-left>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row1-right>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row2-left>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row3-left>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row4-left>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row5-left>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row2-right>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row3-right>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row4-right>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row5-right>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.row6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row6>div {
+    background-color: rgb(200, 203, 204);
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.seatstyle {
+    background-color: blue;
+}
+
+#last-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#pink {
+    height: 15px;
+    width: 15px;
+    background-color: pink;
+}
+
+#grey {
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+}
+
+#black {
+    height: 10px;
+    width: 10px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.last-row1 {
+    display: flex;
+}
+
+.last-row2 {
+    display: flex;
+}
+
+.last-row3 {
+    display: flex;
+}
+
+.last-row1>div {
+    margin-right: 5px;
+}
+
+.last-row2>div {
+    margin-right: 5px;
+}
+
+.last-row3>div {
+    margin-right: 5px;
+}
+
+.book-male {
+    background-color: red !important;
+    border-style: solid;
+    border-color: black;
+}
+
+.book-female {
+    background-color: pink !important;
+    border-style: solid;
+    border-color: black;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redbus login</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div id="secondnav" class="secondnav">
+        <div class="secondnav-left">
+            <h1>BlueBus <span class="heading-dot">.</span> </h1>
+        </div>
+        <div class="secondnav-right">
+            <ul class="secondnav-right-ul">
+                <li class="secondnav-right-right blog">Bus hire
+                    <div class="blog-hide">
+                        <ul>
+                            <li class="blog-hide-li">Elements</li>
+                            <li class="blog-hide-li">Blog</li>
+                            <li class="blog-hide-li">Blog Details</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="secondnav-right-right">Flight tickets</li>
+                <li class="secondnav-right-right">Book Hotels</li>
+                <li class="secondnav-right-right blog">Sign up
+                    <div class="blog-hide">
+                        <ul>
+                            <li class="blog-hide-li">Elements</li>
+                            <li class="blog-hide-li">Blog</li>
+                            <li class="blog-hide-li">Blog Details</li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="secondnav-right-right">Contact</li>
+            </ul>
+        </div>
+    </div>
+    <form id="contactForm" action="buslist/buslist.html" method="POST">ENTER DETAILS <br>
+        <label for="Arrival">Arrival</label>
+        <input type="text" placeholder="Arrival place" id="Arrival"><br>
+        <label for="Destination">Destination</label>
+        <input type="text" placeholder="Enter destination" id="Destination"><br>
+        <label for="date">Date</label>
+        <input type="date" id="date" placeholder="enter date in dd-mm-yyyy">
+        <button id="button" type="button" value="send"> <a href="buslist/buslist.html" target="_self" >Search Bus</button></a>
+
+    </form>
+    <div class="div">
+        <div class="div-left">
+            <p>Save upto Rs 150 on Bus tickets</p>
+            <img src="https://st.redbus.in/Images/INDOFFER/safetyplus/274_147.png">
+            <p>use code:FIRST</p>
+
+        </div>
+        <div class="div-right">
+            <p>Get cashback upto Rs 500 on Amazon pay</p>
+            <img src="https://s1.rdbuz.com/images/MobileOffers/amazon/offertile..png">
+            <p>use code:AMAZONPAY</p>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+
+            if (localStorage) {
+
+                document.getElementById('contactForm').addEventListener('click', function() {
+                    var name = document.getElementById('Arrival').value;
+                    var destination = document.getElementById("Destination").value
+                    var date = document.getElementById('date').value;
+
+
+                    localStorage.setItem('Arrival', name);
+                    localStorage.setItem('Destination', destination);
+                    localStorage.setItem('date', date);
+
+
+                });
+
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
